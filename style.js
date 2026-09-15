@@ -1,6 +1,6 @@
 
 for (var i = 1; i <= 5; i++) {
-    console.log(i + '回目のループ');
+    console.log(i);
 }
 
 var button1 = document.getElementById('button1');
@@ -22,7 +22,7 @@ button1.addEventListener('click', function(){
 
 button2.addEventListener('click', function(){
     if (input.value === '') {
-        alert('入力欄が空です。');
+        alert('入力値が空です。');
         return;
     }
     output.textContent = input.value;
